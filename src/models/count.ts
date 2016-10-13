@@ -1,3 +1,4 @@
+import { routerRedux, Router, RouteProps } from 'dva/router';
 
 const delay = (timeout) => new Promise(resolve => setTimeout(resolve, timeout));
 
@@ -12,6 +13,9 @@ export default {
     *addWithDelay(action, { call, put }) {
       yield call(delay, 500);
       yield put({ type: 'add' });
-    }
+    },
+    *redirect(action, { put }) {
+      yield put(routerRedux.push('/abc'));
+    },
   },
 }

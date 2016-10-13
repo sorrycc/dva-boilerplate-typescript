@@ -1,5 +1,6 @@
 dist
 node_modules
 .DS_Store
+*.map
 src/**/*.jsx
 src/**/*.js

@@ -3,7 +3,9 @@
     "target": "es6",
     "moduleResolution": "node",
     "jsx": "preserve",
-    "module": "commonjs"
+    "module": "commonjs",
+//    "allowSyntheticDefaultImports": true,
+    "sourceMap": true
   },
   "exclude": [
     "node_modules"
