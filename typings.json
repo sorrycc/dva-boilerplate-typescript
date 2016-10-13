@@ -1,11 +1,8 @@
 {
   "globalDependencies": {
-    "history": "registry:dt/history#1.8.0+20160316155526",
     "react": "registry:dt/react#0.14.0+20161008064207",
     "react-dom": "registry:dt/react-dom#0.14.0+20160412154040",
-    "react-redux": "registry:dt/react-redux#4.4.0+20160908183346",
     "react-router": "registry:dt/react-router#2.0.0+20160928130202",
-    "react-router/history": "registry:dt/react-router/history#2.0.0+20160830150755",
-    "whatwg-fetch": "registry:dt/whatwg-fetch#0.0.0+20161004182750"
+    "react-router/history": "registry:dt/react-router/history#2.0.0+20160830150755"
   }
 }
