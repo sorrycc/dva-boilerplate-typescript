@@ -1,7 +1,5 @@
 # dva boilerplate for typescript
 
-> Need dva@1.1, wait for [dvajs/dva#133](https://github.com/dvajs/dva/issues/133) to finish.
-
 ## Get Started
 
 ```bash
