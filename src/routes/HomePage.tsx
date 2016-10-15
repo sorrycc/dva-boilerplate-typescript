@@ -1,10 +1,11 @@
 import * as React from 'react';
 import { connect } from 'dva';
+const styles = require<any>('./HomePage.css');
 
 function HomePage(props) {
   return (
-    <div>
-      <h1>Dva boilerplate with typescript</h1>
+    <div className={styles.normal}>
+      <h1 className={styles.title}>Dva boilerplate with typescript</h1>
       Count: { props.count }
       <hr />
       <button onClick={() => { props.dispatch({ type: 'count/add' }); }}>Add</button>
