@@ -4,10 +4,13 @@
     "moduleResolution": "node",
     "jsx": "preserve",
     "module": "commonjs",
-//    "allowSyntheticDefaultImports": true,
+    //"allowSyntheticDefaultImports": true,
     "sourceMap": true
   },
   "exclude": [
     "node_modules"
+  ],
+  "typeRoots": [
+    "node_modules/@types"
   ]
 }
